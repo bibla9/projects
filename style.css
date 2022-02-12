@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+h1{
+    color:white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 100vh;
+}
+span{
+    opacity: 0;
+    transition: all 9s ease;
+    transform:translateY(50px);
+    display: inline-block;
+}
+span.fade{
+    opacity:1;
+    transform:translateY(0px)
+}
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:19%;
+}
+p{
+    color: #fff;
+}
+img{
+    height: 10vh;
+}
+video{
+    display: none;
+    height: 100vh;
+    width: 100vw;
+}
